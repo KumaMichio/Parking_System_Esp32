@@ -1,0 +1,21 @@
+{
+  "name": "smart-parking-backend",
+  "version": "1.0.0",
+  "description": "Smart Parking backend with MQTT, MongoDB and Socket.io",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mqtt": "^5.10.1",
+    "mongoose": "^8.6.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
